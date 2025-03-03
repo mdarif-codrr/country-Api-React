@@ -1,0 +1,18 @@
+
+
+.shimmer-flex{
+    width: 450px;
+    height: 250px;
+    background-color: #ccc;
+}
+.shimmer-h2{
+    width: 500px;
+    height: 40px;
+    background-color: #ccc;
+}
+.shimmer-native{
+    height: 32px;
+    width: 250px;
+    background-color: #ccc;
+    margin-top: 10px;
+}

@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wdth,wght,YTLC@0,6..12,75..125,200..1000,440..540;1,6..12,75..125,200..1000,440..540&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body {
+  --lightMode: white;
+  --darkMode: #0a0909;
+  --borderColor: black;
+  position: relative;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #f0eeee;
+}
+.dark {
+  --lightMode: #0a0909;
+  --darkMode: #bdbcbc;
+  --borderColor: #c1bdbd;
+  background-color: var(--lightMode);
+} */
+ .main-container{
+  padding: 1rem;
+  /* padding-bottom: 3.5rem; */
+ }
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+  padding: 1rem 2rem;
+  background-color: var(--lightMode);
+  color: var(--darkMode);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  box-shadow: -7px -1px 6px 0px var(--borderColor);
+}
+
+.dark-cont {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  gap: 0.3rem;
+}
+/* .mode {
+  margin-top: 7px;
+} */
+.header h2 {
+  white-space: nowrap;
+}
+section {
+  position: relative;
+  max-width: 80vw;
+  min-height: 80vh;
+  margin: 0 auto;
+  margin-top: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--darkMode);
+}
+.back-btn {
+  position: absolute;
+  top: 12px;
+  left: 25px;
+  align-self: self-start;
+  background-color: var(--lightMode);
+  padding: 0.3rem 0.7rem;
+  border-radius: 5px;
+  white-space: nowrap;
+  box-shadow: 0px 0px 3px var(--borderColor);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dark .back-btn img{
+  filter: invert(1);
+}
+.all-info{
+  /* max-width: 471px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.flex-item {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 2rem;
+}
+.img-cont{
+  border: 2px solid #e5e1e1;
+  max-width: 350px;
+  /* height: 200px; */
+  align-self: flex-start;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 1rem;
+}
+.img-cont img{
+  max-width: 100%;
+  height: 100%;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.first-info {
+  height: 100%;
+  white-space: nowrap;
+  line-height: 1.5;
+}
+.sec-info {
+  height: 100%;
+  white-space: nowrap;
+  line-height: 2;
+  margin-top: 5rem;
+}
+.third-info {
+  /* max-width: 80vw; */
+  margin-top: 1rem;
+  display: block;
+  /* align-self: flex-end; */
+  align-self: start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+.borders a {
+  background-color: var(--lightMode);
+  padding: 0.2rem 0.5rem;
+  margin-left: 0.7rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px var(--borderColor);
+  cursor: pointer;
+  border: 1px solid var(--borderColor);
+  text-decoration: none;
+  color: inherit;
+}
+.borders{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+  max-width: 325px;
+}
+.lang{
+  white-space: wrap;
+}
+
+.load{
+  max-width: 350px;
+  margin: 0 auto;
+  margin-top: 7rem;
+}
+
+@media (max-width: 767px) {
+  nav {
+    padding: 0.5rem 1rem;
+  }
+  .header h2,
+  .dark-mode {
+    font-size: 19px;
+  }
+  .all-info{
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .flex-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .info {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+  .third-info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  .back-btn {
+    top: -51px;
+    left: -5px;
+  }
+  .borders{
+    max-width: none;
+  }
+  .img-cont{
+    margin-left: 0px;
+  }
+  .sec-info{
+    margin-top: 0;
+  }
+  .main-container{
+    padding: 1rem;
+    padding-bottom: 3.5rem;
+   }
+}
+/* @media (max-width: 850px) {
+  .main-container{
+    padding: 1rem;
+    padding-bottom: 6.7rem;
+   }
+} */
