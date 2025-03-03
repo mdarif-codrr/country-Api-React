@@ -28797,7 +28797,7 @@ var _react = require("react");
 var _styleCss = require("../style.css");
 var _searchSvg = require("../images/search.svg");
 var _searchSvgDefault = parcelHelpers.interopDefault(_searchSvg);
-var _input = require("./input");
+var _input = require("./Input");
 var _inputDefault = parcelHelpers.interopDefault(_input);
 var _regionNamePlate = require("./RegionNamePlate");
 var _regionNamePlateDefault = parcelHelpers.interopDefault(_regionNamePlate);
@@ -28895,58 +28895,10 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../style.css":"3ZjyD","../images/search.svg":"4pIVF","./input":"3Zvsa","./RegionNamePlate":"bqJuQ","./DropDown":"5lfhA","./CardList":"cZbfs","./GoToTop":"iKvr4","../contexts/ThemeContext":"8Vp8A","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"3ZjyD":[function() {},{}],"4pIVF":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../style.css":"3ZjyD","../images/search.svg":"4pIVF","./RegionNamePlate":"bqJuQ","./DropDown":"5lfhA","./CardList":"cZbfs","./GoToTop":"iKvr4","../contexts/ThemeContext":"8Vp8A","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Input":"42WSy"}],"3ZjyD":[function() {},{}],"4pIVF":[function(require,module,exports,__globalThis) {
 module.exports = require("98666db55a9a3d9e").getBundleURL('dA0Df') + "search.b5c466a4.svg" + "?" + Date.now();
 
-},{"98666db55a9a3d9e":"lgJ39"}],"3Zvsa":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$de98 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$de98.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "default", ()=>Input);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-function Input({ SerarchImg, setQuary }) {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "inpt-cont",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                width: "19px",
-                src: SerarchImg
-            }, void 0, false, {
-                fileName: "04/components/input.jsx",
-                lineNumber: 4,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                onChange: (e)=>setQuary(e.target.value.toLocaleLowerCase()),
-                type: "text",
-                placeholder: "Search for a country..."
-            }, void 0, false, {
-                fileName: "04/components/input.jsx",
-                lineNumber: 5,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "04/components/input.jsx",
-        lineNumber: 3,
-        columnNumber: 5
-    }, this);
-}
-_c = Input;
-var _c;
-$RefreshReg$(_c, "Input");
-
-  $parcel$ReactRefreshHelpers$de98.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bqJuQ":[function(require,module,exports,__globalThis) {
+},{"98666db55a9a3d9e":"lgJ39"}],"bqJuQ":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$22e6 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -29412,6 +29364,54 @@ $RefreshReg$(_c, "GoToTop");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["aQL8O","1UnNB","2V5c3"], "2V5c3", "parcelRequire94c2")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"42WSy":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$7fd0 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$7fd0.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>Input);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+function Input({ SerarchImg, setQuary }) {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "inpt-cont",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                width: "19px",
+                src: SerarchImg
+            }, void 0, false, {
+                fileName: "04/components/Input.jsx",
+                lineNumber: 4,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                onChange: (e)=>setQuary(e.target.value.toLocaleLowerCase()),
+                type: "text",
+                placeholder: "Search for a country..."
+            }, void 0, false, {
+                fileName: "04/components/Input.jsx",
+                lineNumber: 5,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "04/components/Input.jsx",
+        lineNumber: 3,
+        columnNumber: 5
+    }, this);
+}
+_c = Input;
+var _c;
+$RefreshReg$(_c, "Input");
+
+  $parcel$ReactRefreshHelpers$7fd0.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["aQL8O","1UnNB","2V5c3"], "2V5c3", "parcelRequire94c2")
 
 //# sourceMappingURL=index.0a3ac71d.js.map

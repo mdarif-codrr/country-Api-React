@@ -1,7 +1,7 @@
 import { useContext, useState } from 'react'
 import '../style.css'
 import SerarchImg from '../images/search.svg'
-import Input from './input'
+import Input from './Input'
 import RegionNamePlate from './RegionNamePlate'
 import DropDown from './DropDown'
 import CardList from './CardList'
