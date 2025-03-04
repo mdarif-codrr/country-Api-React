@@ -195,6 +195,20 @@ section {
   margin-top: 10px;
 }
 
+.M76euW_artist {
+  text-align: center;
+  color: var(--darkMode);
+  font-weight: 700;
+}
+
+.M76euW_footer {
+  margin-top: 24px;
+}
+
+.M76euW_ancher {
+  color: red;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -206,7 +220,7 @@ html {
 }
 
 body {
-  --lightMode: white;
+  --lightMode: #ddd9d9;
   --darkMode: #0a0909;
   --borderColor: black;
   font-family: Nunito Sans, sans-serif;

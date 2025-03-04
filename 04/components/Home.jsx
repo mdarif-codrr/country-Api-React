@@ -7,6 +7,7 @@ import DropDown from './DropDown'
 import CardList from './CardList'
 import GoToTop from './GoToTop'
 import { ThemeContext } from '../contexts/ThemeContext'
+import Footer from './Footer'
 
 export default function Home() {
   const [quary, setQuary] = useState('')
@@ -32,6 +33,7 @@ export default function Home() {
                   <CardList region={region} quary={quary} />
                 </main>
                 <GoToTop />
+                <Footer/>
               </div>
       </>
     )

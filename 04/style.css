@@ -9,7 +9,7 @@ html{
 }
 
   body {
-  --lightMode: white;
+  --lightMode: rgb(221, 217, 217);
   --darkMode: #0a0909;
   --borderColor: black;
   position: relative;

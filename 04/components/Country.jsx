@@ -5,6 +5,7 @@ import { Link, useLocation, useOutletContext, useParams } from 'react-router'
 import CountryShimmer from './CountryShimmer'
 import CuntriesBorder from './CuntriesBorder'
 import { ThemeContext } from '../contexts/ThemeContext'
+import Footer from './Footer'
 
 export default function Country() {
   const params = useParams()
@@ -170,6 +171,7 @@ export default function Country() {
           </div>
         </div>
       </section>
+      <Footer/>
     </div>
   )
 }
