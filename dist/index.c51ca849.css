@@ -79,7 +79,6 @@ section {
 }
 
 .first-info {
-  white-space: nowrap;
   height: 100%;
   line-height: 1.5;
 }
@@ -397,8 +396,44 @@ main {
 }
 
 .shimmer {
-  background-color: #ccc;
+  --divcolor: #242121;
+  --paraColor: #ccc;
+  background-color: var(--divcolor);
+  border-radius: 7px;
   width: 290px;
-  height: 390px;
+  height: 400px;
+}
+
+.cont-img-shimmer {
+  background-color: var(--paraColor);
+  border-radius: 7px 7px 0 0;
+  max-width: 301px;
+  height: 200px;
+}
+
+.cont-text-shimmer {
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10px;
+  display: flex;
+}
+
+.para {
+  background-color: var(--paraColor);
+  border-radius: 5px;
+  width: 70%;
+  height: 25px;
+  margin-top: 15px;
+  padding-right: 10px;
+}
+
+.para1 {
+  background-color: var(--paraColor);
+  border-radius: 5px;
+  width: 100%;
+  height: 25px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding-right: 10px;
 }
 /*# sourceMappingURL=index.c51ca849.css.map */

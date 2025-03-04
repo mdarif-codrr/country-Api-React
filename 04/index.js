@@ -4,6 +4,7 @@ import App from "./App";
 import Country from "./components/Country";
 import Home from "./components/Home";
 import CountryShimmer from "./components/CountryShimmer";
+import CountryListShimmer from "./components/CountryListShimmer";
 
 
 const root = createRoot(document.querySelector('#root'))
@@ -15,7 +16,7 @@ root.render(
         <Route path='/:country' element={ <Country/> } ></Route>
         </Route>
 
-        <Route path="/shimmer" element={<CountryShimmer/>}/>
+        <Route path="/shimmerr" element={<CountryListShimmer/>}/>
       </Routes>
   </BrowserRouter>)
  

@@ -8,6 +8,8 @@ export default function CountryCard({
   capital,
   countryData,
 }) {
+  // console.log(countryData);
+  
   return (
     <Link to={`${name}`} className="country" state={countryData}>
       <div className="cont-img">

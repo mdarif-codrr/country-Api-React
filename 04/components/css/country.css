@@ -116,7 +116,7 @@ section {
 }
 .first-info {
   height: 100%;
-  white-space: nowrap;
+  /* white-space: nowrap; */
   line-height: 1.5;
 }
 .sec-info {
