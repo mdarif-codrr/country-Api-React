@@ -13,7 +13,7 @@ export default function DropDown({ onRegionChange }) {
   return (
     <div>
       <select onChange={handleChange} value={selectedRegion} id="region">
-        <option value="All" hidden="">
+        <option value="All" hidden>
           {' '}
           Filter by Region
         </option>
