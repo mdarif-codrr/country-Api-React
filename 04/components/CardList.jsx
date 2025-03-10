@@ -22,7 +22,7 @@ export default function CardList({ quary, region }) {
   }, [region])
 
   const filteredArray = countriesData.filter((country) => {
-    const finalQuary = country.name.official.toLocaleLowerCase().includes(quary)
+    const finalQuary = country.name.official.toLocaleLowerCase().includes(quary) || country.region.toLocaleLowerCase().includes(quary)
     return finalQuary
   })
   const countryArray =

@@ -29072,7 +29072,7 @@ function DropDown({ onRegionChange }) {
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
                     value: "All",
-                    hidden: "",
+                    hidden: true,
                     children: [
                         ' ',
                         "Filter by Region"
@@ -29185,7 +29185,7 @@ function CardList({ quary, region }) {
         region
     ]);
     const filteredArray = countriesData.filter((country)=>{
-        const finalQuary = country.name.official.toLocaleLowerCase().includes(quary);
+        const finalQuary = country.name.official.toLocaleLowerCase().includes(quary) || country.region.toLocaleLowerCase().includes(quary);
         return finalQuary;
     });
     const countryArray = filteredArray.length !== 0 ? filteredArray.map((country)=>{

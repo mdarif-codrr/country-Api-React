@@ -70,6 +70,7 @@ main {
   margin: 0 3rem;
   max-width: 100vw;
   padding: 1rem 0;
+  min-height: calc(100vh - 80px);
 }
 .search-container {
   position: sticky;
