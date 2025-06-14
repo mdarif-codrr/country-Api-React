@@ -3,7 +3,7 @@ import CountryCard from './CountryCard'
 import CountryListShimmer from './CountryListShimmer'
 
 export default function CardList({ quary, region }) {
-  const allCountryUrl = 'https://restcountries.com/v3.1/all'
+  const allCountryUrl = 'https://restcountries.com/v3.1/all?fields=name,capital,region,population,flags'
   const resionUrl = `https://restcountries.com/v3.1/region/${region}`
 
   const [countriesData, setCountryData] = useState([])
